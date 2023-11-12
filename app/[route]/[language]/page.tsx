@@ -1,7 +1,7 @@
 import { getTime } from "@/data/api";
 import Image from "next/image";
 
-export default async function Home() {
+export default async function RoutePage() {
   const time = await getTime();
 
   console.log(time);
